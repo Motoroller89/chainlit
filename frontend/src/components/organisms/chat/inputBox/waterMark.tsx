@@ -25,15 +25,15 @@ export default function WaterMark() {
           textDecoration: 'none'
         }}
       >
-        <Typography fontSize="12px" color="text.secondary">
+        <Typography fontSize="0px" color="text.secondary">
           <Translator path="components.organisms.chat.inputBox.waterMark.text" />
         </Typography>
         <Logo
           style={{
-            width: 65,
+            width: 0,
             height: 'auto',
             filter: 'grayscale(1)',
-            marginLeft: '4px'
+            marginLeft: '0px'
           }}
         />
       </a>
